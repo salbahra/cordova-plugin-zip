@@ -1,0 +1,37 @@
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\bin\Debug\Unzipper.winmd
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\bin\Debug\Unzipper.pdb
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\bin\Debug\Unzipper.pri
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\Unzipper.winmd
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\Unzipper.pdb
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\Unzipper.winmdobj
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\Unzipper.compile.pdb
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\priconfig.xml
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\priconfig.xml.intermediate
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\layout.resfiles
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\layout.resfiles.intermediate
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\resources.resfiles
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\resources.resfiles.intermediate
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\pri.resfiles
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\pri.resfiles.intermediate
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\qualifiers.txt
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\qualifiers.txt.intermediate
+c:\users\chris.redhead\documents\visual studio 2015\Projects\Unzipper\Unzipper\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\bin\Debug\Unzipper.winmd
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\bin\Debug\Unzipper.pdb
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\bin\Debug\Unzipper.pri
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\Unzipper.csprojResolveAssemblyReference.cache
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\Unzipper.winmd
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\Unzipper.pdb
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\Unzipper.winmdobj
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\Unzipper.compile.pdb
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\priconfig.xml
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\priconfig.xml.intermediate
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\layout.resfiles
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\layout.resfiles.intermediate
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\resources.resfiles
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\resources.resfiles.intermediate
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\pri.resfiles
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\pri.resfiles.intermediate
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\qualifiers.txt
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\qualifiers.txt.intermediate
+C:\dev\cordova-plugin-zip\src\windows\Unzipper\Unzipper\obj\Debug\MultipleQualifiersPerDimensionFound.txt
