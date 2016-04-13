@@ -24,6 +24,13 @@
       </feature>
     </config-file>
   </platform>
+  
+  <platform name="windows">
+    <js-module src="src/windows/ZipProxy.js" name="ZipProxy">
+      <merges target="" />
+    </js-module>
+	<framework src="src/windows/Unzipper.winmd" custom="true"/>
+  </platform>
 
   <platform name="ios">
     <source-file src="src/ios/ZipPlugin.m" />
