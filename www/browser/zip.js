@@ -1201,28 +1201,40 @@
 		    return str.replace(/\/$/, "");
 		} 
 		function unzipEntry(fs, zipEntry, callback, errCallback) {
+			var fullPath = outputDirectory.replace(cordova.file.dataDirectory, '') + zipEntry.filename;
 			function writeFile(storageFileEntry) {
 				var writer = new zip.FileWriter(storageFileEntry);
 				zipEntry.getData(writer, function() {
 					callback();
 				});
 			}
-			if (zipEntry.directory) {
-				fs.root.getDirectory(stripTrailingSlash(outputDirectory.replace(cordova.file.dataDirectory, '') + zipEntry.filename), {create:true}, callback, errCallback)
+			function createFile(dir) {
+				if (zipEntry.directory) {
+					dir.getDirectory(getFilename(fullPath), {create:true}, callback, errCallback);
+				}
+				else {
+					dir.getFile(getFilename(fullPath), { create: true, exclusive: false }, writeFile, errCallback);
+				}
 			}
-			else if (zipEntry.filename.indexOf('/') === -1) {
-				fs.root.getFile(outputDirectory.replace(cordova.file.dataDirectory, '') + zipEntry.filename, { create: true, exclusive: false }, writeFile, errCallback);
-			}
-			else {
-				var pathArray = zipEntry.filename.split( '/' );
+			function getPath(full) {
+				var pathArray = full.split( '/' );
 				var newPathname = "";
 				for (var i = 0; i < pathArray.length-1; i++) {
 					newPathname += pathArray[i];
 					newPathname += "/";
 				}
-				fs.root.getDirectory(stripTrailingSlash(outputDirectory.replace(cordova.file.dataDirectory, '') + newPathname), {create:true}, function (dirEntry) {
-					dirEntry.getFile(pathArray[pathArray.length-1], { create: true, exclusive: false }, writeFile, errCallback);
-				}, errCallback);
+				return newPathname;
+			}
+			function getFilename(full) {
+				var pathArray = full.split( '/' );
+				return pathArray[pathArray.length-1];
+			}
+			
+			if (fullPath.indexOf('/') > -1) {
+				fs.root.getDirectory(stripTrailingSlash(getPath(fullPath)), {create:true}, createFile, errCallback)
+			}
+			else {
+				createFile(fs.root);
 			}
 		}
 		window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function (fs) {
