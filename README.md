@@ -1,6 +1,6 @@
 # cordova-plugin-zip
 
-A Cordova plugin to unzip files in Android and iOS.
+A Cordova plugin to unzip files with support for iOS, Android, Windows, and browser.
 
 ## Installation
 
