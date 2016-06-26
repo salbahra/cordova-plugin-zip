@@ -6,7 +6,8 @@
     "id": "cordova-plugin-unzip",
     "platforms": [
       "android",
-      "ios"
+      "ios",
+      "browser"
     ]
   },
   "repository": {
@@ -16,7 +17,8 @@
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios"
+    "cordova-ios",
+    "cordova-browser"
   ],
   "engines": [
     {
